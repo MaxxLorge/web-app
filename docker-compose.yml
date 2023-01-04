@@ -1,0 +1,6 @@
+services:
+  webapp:
+    image: maxxlorge/webapp
+    ports:
+      - 443:443
+      - 80:80
